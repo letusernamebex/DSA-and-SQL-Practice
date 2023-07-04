@@ -19,7 +19,7 @@
         
         # elif list2:
         #     curr.next = list2
-        curr.next = list1 or list2 
+        curr.next = list1 or list2  
             
         return dummy.next   # Since curr will reach end of the LL, that is why we are using dummy, to return start of that LLs
 #-----------------------------------------------------------------------------------------------------------------------------
