@@ -20,6 +20,7 @@
         # elif list2:
         #     curr.next = list2
         curr.next = list1 or list2  
+
             
         return dummy.next   # Since curr will reach end of the LL, that is why we are using dummy, to return start of that LLs
 #-----------------------------------------------------------------------------------------------------------------------------
@@ -44,6 +45,7 @@
         return merger(list1, list2)
 
 # Recursive Solution 2
+# just short form of above 
 
     def mergeTwoLists(self, list1, list2):
         if list1 and list2:
